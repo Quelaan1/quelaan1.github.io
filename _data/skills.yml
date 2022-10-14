@@ -2,7 +2,7 @@ languages:
   - item: JavaScript (ES6)
   - item: TypeScript
   - item: HTML
-  - item: CSS/Sass
+  - item: CSS/SASS
   - item: Python
   - item: Java
 
