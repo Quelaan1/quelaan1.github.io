@@ -1,0 +1,23 @@
+languages:
+  - item: JavaScript (ES6)
+  - item: TypeScript
+  - item: HTML
+  - item: CSS/Sass
+  - item: Python
+  - item: Java
+
+libraries:
+  - item: React.js
+  - item: Redux
+
+frameworks:
+  - item: Bootstrap
+  - item: Tailwind CSS
+  - item: Bulma
+
+tools:
+  - item: Bash
+  - item: Git & Github
+
+design:
+  - item: Figma

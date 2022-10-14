@@ -1,0 +1,43 @@
+# Site settings
+name: Tilak Kumar
+title: Tilak Kumar | Front End Software Engineer
+description: Design-minded front-end software engineer focused on building beautiful interfaces and experiences
+url: https://Quelaan1.github.io/
+baseurl: ''
+email: mailtotilakkumar@gmail.com
+cover: https://Quelaan1.github.io/img/og.png
+logo: https://Quelaan1.github.io/img/emojis/technologist.png
+resume: https://Quelaan1.github.io/resume.pdf
+social:
+  - title: email
+    url: mailto:mailtotilakkumar@gmail.com
+  - title:
+    url:
+  - title: instagram
+    url: https://www.instagram.com/dm2tilakkumar/
+  - title: github
+    url: https://github.com/Quelaan1
+  - title: linkedin
+    url: https://www.linkedin.com/in/tilak-kumar-148857227/
+
+# Build settings
+markdown: kramdown
+
+exclude:
+  - 'Gemfile'
+  - 'Gemfile.lock'
+  - '*.gemspec'
+  - 'README.md'
+  - 'node_modules'
+  - 'build'
+  - 'gulpfile.js'
+  - 'package.json'
+
+keep_files:
+  - 'CNAME'
+  - '.git'
+  - '.gitignore'
+
+plugins_dir:
+  - jekyll-minifier
+  - jekyll-sitemap

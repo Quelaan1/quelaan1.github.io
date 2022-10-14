@@ -1,0 +1,31 @@
+{
+  "name": "tilakkumar",
+  "version": "0.0.0",
+  "description": "Design-minded front-end software engineer focused on building beautiful interfaces and experiences",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Quelaan1/quelaan1.github.io"
+  },
+  "homepage": "https://github.com/Quelaan1/quelaan1.github.io",
+  "main": "gulpfile.js",
+  "scripts": {
+    "start": "gulp serve --watch",
+    "build": "gulp build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "author": "Tilak Kumar",
+  "license": "ISC",
+  "devDependencies": {
+    "@nuscout/eslint-config": "^0.2.1",
+    "browser-sync": "^2.26.7",
+    "gh-pages": "^4.0.0",
+    "gulp": "^4.0.0",
+    "gulp-autoprefixer": "^7.0.0",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-eslint": "^6.0.0",
+    "gulp-imagemin": "6.0.0",
+    "gulp-sass": "^4.1.0",
+    "gulp-uglify": "3.0.2"
+  }
+}
