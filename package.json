@@ -1,31 +1,28 @@
 {
-  "name": "tilakkumar",
-  "version": "0.0.0",
-  "description": "Design-minded front-end software engineer focused on building beautiful interfaces and experiences",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/Quelaan1/quelaan1.github.io"
+  "name": "portfolio",
+  "version": "1.2.0",
+  "main": "src/app/index.js",
+  "author": {
+    "name": "Tilak",
+    "url": "https://quelaan1.github.io"
   },
-  "homepage": "https://github.com/Quelaan1/quelaan1.github.io",
-  "main": "gulpfile.js",
-  "scripts": {
-    "start": "gulp serve --watch",
-    "build": "gulp build",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
-  },
-  "author": "Tilak Kumar",
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
-    "@nuscout/eslint-config": "^0.2.1",
-    "browser-sync": "^2.26.7",
-    "gh-pages": "^4.0.0",
-    "gulp": "^4.0.0",
-    "gulp-autoprefixer": "^7.0.0",
-    "gulp-clean-css": "^4.3.0",
-    "gulp-eslint": "^6.0.0",
-    "gulp-imagemin": "6.0.0",
-    "gulp-sass": "^4.1.0",
-    "gulp-uglify": "3.0.2"
+    "copy-webpack-plugin": "^11.0.0",
+    "css-loader": "^6.7.2",
+    "html-webpack-plugin": "^5.5.0",
+    "json-minimizer-webpack-plugin": "^4.0.0",
+    "mini-css-extract-plugin": "^2.7.2",
+    "sass": "^1.56.1",
+    "sass-loader": "^13.2.0",
+    "style-loader": "^3.3.1",
+    "webpack": "^5.75.0",
+    "webpack-cli": "^5.0.0",
+    "webpack-dev-server": "^4.11.1",
+    "node-sass": "^8.0.0"
+  },
+  "scripts": {
+    "build": "webpack",
+    "serve": "webpack serve"
   }
 }
