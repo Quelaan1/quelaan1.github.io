@@ -32,6 +32,22 @@
 		"payup": {
 			"name": "Payup",
 			"description": "Payments app"
+		},
+		"mybike": {
+			"name": "MyBike",
+			"description": "Bike e-commerce website"
+		},
+		"realestate": {
+			"name": "RealEstate",
+			"description": "RealEstate website"
+		},
+		"crazybaby": {
+			"name": "CrazyBaby",
+			"description": "Speaker e-commerce website"
+		},
+		"landbrokers": {
+			"name": "LandBrokers",
+			"description": "Airbnb clone"
 		}
 	},
 	"pages": {

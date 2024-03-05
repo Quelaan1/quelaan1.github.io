@@ -24,5 +24,8 @@ export default {
     gulp: "Gulp",
     flask: "Flask",
     quart: "Quart",
-    webpack: "Webpack"
+    webpack: "Webpack",
+    css: "CSS",
+    sass: 'Sass',
+    html: "HTML",
 }
