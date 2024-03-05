@@ -233,7 +233,7 @@ eval("var map = {\n\t\"./About\": [\n\t\t\"./src/app/views/About.js\",\n\t\t\"sr
 /******/ 		// This function allow to reference async chunks
 /******/ 		__webpack_require__.u = (chunkId) => {
 /******/ 			// return url for filenames based on template
-/******/ 			return "js/" + {"src_app_views_About_js":"e36f640ce3b72c6263cc","src_app_views_Contacts_js":"560ef71063b129da344c","src_app_views_Home_js":"8fa2c3dac43bbf97bfb8","src_app_views_PageNotFound_js":"889f973003c86d2b46df","src_app_views_Projects_js":"af1ccd4cfc3b25a3ddb0"}[chunkId] + ".js";
+/******/ 			return "js/" + {"src_app_views_About_js":"66956b7f3ed001bebd4d","src_app_views_Contacts_js":"560ef71063b129da344c","src_app_views_Home_js":"26fd702fe535009c1d97","src_app_views_PageNotFound_js":"889f973003c86d2b46df","src_app_views_Projects_js":"78f393866b004831c97c"}[chunkId] + ".js";
 /******/ 		};
 /******/ 	})();
 /******/ 	
@@ -355,6 +355,9 @@ eval("var map = {\n\t\"./About\": [\n\t\t\"./src/app/views/About.js\",\n\t\t\"sr
 /******/ 		
 /******/ 			linkTag.rel = "stylesheet";
 /******/ 			linkTag.type = "text/css";
+/******/ 			if (__webpack_require__.nc) {
+/******/ 				linkTag.nonce = __webpack_require__.nc;
+/******/ 			}
 /******/ 			var onLinkComplete = (event) => {
 /******/ 				// avoid mem leaks.
 /******/ 				linkTag.onerror = linkTag.onload = null;
